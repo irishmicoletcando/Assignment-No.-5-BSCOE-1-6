@@ -19,6 +19,8 @@ def grade_percentage():
         print(f"Grade/Mark: 1.25 \nDescription: Excellent")
     elif input_grade >= 91 and input_grade <= 93:
         print(f"Grade/Mark: 1.50 \nDescription: Very Good")
+    elif input_grade >= 88 and input_grade <= 90:
+        print(f"Grade/Mark: 1.75 \nDescription: Very Good")
     return input_grade
     
 
