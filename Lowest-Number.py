@@ -15,6 +15,9 @@ def ask_num(num1, num2, num3):
             if num3 < num1 and num3 < num1:
                 print(f"The lowest number is {num3}.")
                 return num3
+            else:
+                print("The three numbers are equal.")
+                return
 
 
 number1 = float(input("Enter first number: "))
