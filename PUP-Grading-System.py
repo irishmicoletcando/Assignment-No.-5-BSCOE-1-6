@@ -8,7 +8,7 @@
 
 def ask_user_name():
     user_ = input("Enter name: ")
-    print(f"Welcome to PUP Grading System {user_}")
+    print(f"Welcome to PUP Grading System {user_}!")
     return user_
 
 def grade_percentage():
