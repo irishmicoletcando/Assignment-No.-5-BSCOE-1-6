@@ -47,3 +47,6 @@ def grade_percentage():
 
 ask_user_name()
 grade_percentage()
+
+# Had a lot of errors in the beginning and got confused on how I will place INC, W, D since I started with a float input
+# Program completed!
