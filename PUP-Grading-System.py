@@ -12,19 +12,22 @@ def ask_user_name():
     return user_
 
 def grade_percentage():
-    input_grade = float(input("Input Grade: "))
-    if input_grade >= 97 and input_grade <= 100:
+    input_grade = input("Input Grade: ")
+    if input_grade > 96 and input_grade <= 100:
         print(f"Grade/Mark: 1.0 \nDescription: Excellent")
-    elif input_grade >= 94 and input_grade <= 96:
+    elif input_grade > 93 and input_grade <= 96:
         print(f"Grade/Mark: 1.25 \nDescription: Excellent")
-    elif input_grade >= 91 and input_grade <= 93:
+    elif input_grade > 90 and input_grade <= 93:
         print(f"Grade/Mark: 1.50 \nDescription: Very Good")
-    elif input_grade >= 88 and input_grade <= 90:
+    elif input_grade > 87 and input_grade <= 90:
         print(f"Grade/Mark: 1.75 \nDescription: Very Good")
-    elif input_grade >= 85 and input_grade <= 87:
+    elif input_grade > 84 and input_grade <= 87:
         print(f"Grade/Mark: 2.0 \nDescription: Very Good")
-    elif input_grade >= 82 and input_grade <= 84:
+    elif input_grade > 81 and input_grade <= 84:
         print(f"Grade/Mark: 2.25 \nDescription: Very Good")
+    elif input_grade > 78 and input_grade <= 81:
+        print(f"Grade/Mark: 2.25 \nDescription: Very Good")
+
     return input_grade
     
 
