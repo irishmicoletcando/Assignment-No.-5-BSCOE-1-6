@@ -18,4 +18,5 @@ def grade_percentage():
     return input_grade
     
 
+ask_user_name()
 grade_percentage()
