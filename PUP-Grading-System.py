@@ -8,13 +8,15 @@
 
 def ask_user_name():
     user_ = input("Enter name: ")
-    print(f"Welcome to PUP Grading System {user_}!")
+    print(f"Welcome to PUP Grading System, {user_}!")
     return user_
 
 def grade_percentage():
     input_grade = float(input("Input Grade: "))
     if input_grade >= 97 and input_grade <= 100:
         print(f"Grade/Mark: 1.0 \nDescription: Excellent")
+    elif input_grade >= 94 and input_grade <= 96:
+        print(f"Grade/Mark: 1.25 \nDescription: Excellent")
     return input_grade
     
 
