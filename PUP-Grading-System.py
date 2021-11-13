@@ -38,7 +38,7 @@ def grade_percentage():
             print(f"Grade/Mark: 2.75 \nDescription: Satisfactory")
         elif round_up == 75:
             print(f"Grade/Mark: 3.0 \nDescription: Passing")
-        elif round_up >= 65 and round <= 74:
+        elif round_up >= 65 and round_up <= 74:
             print(f"Grade/Mark: 5.0 \nDescription: Failure")
         else:
             print("Please enter grades between 65 to 100 only.")
