@@ -7,6 +7,10 @@ def ask_num(num1, num2, num3):
     if num1 < num2 and num1 < num3:
         print(f"The lowest number is {num1}.")
         return num1
+    else: 
+        if num2 < num1 and num2 < num3:
+            print(f"The lowest number is {num2}.")
+            return num2
 
 
 number1 = float(input("Enter first number: "))
