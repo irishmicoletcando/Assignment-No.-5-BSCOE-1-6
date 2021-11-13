@@ -13,7 +13,9 @@ def ask_user_name():
 
 def grade_percentage():
     input_grade = float(input("Input Grade: "))
+    if input_grade >= 97 and input_grade <= 100:
+        print(f"Grade/Mark: 1.0 \nDescription: Excellent")
     return input_grade
-
+    
 
 grade_percentage()
