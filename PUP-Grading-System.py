@@ -24,12 +24,13 @@ def grade_percentage():
     elif round_up >= 88 and round_up <= 90:
         print(f"Grade/Mark: 1.75 \nDescription: Very Good")
     elif round_up >= 85 and round_up <= 87:
-        print(f"Grade/Mark: 2.0 \nDescription: Very Good")
+        print(f"Grade/Mark: 2.0 \nDescription: Good")
     elif round_up >= 82 and round_up <= 84:
-        print(f"Grade/Mark: 2.25 \nDescription: Very Good")
+        print(f"Grade/Mark: 2.25 \nDescription: Good")
     elif round_up >= 79 and round_up <= 81:
-        print(f"Grade/Mark: 2.25 \nDescription: Very Good")
-
+        print(f"Grade/Mark: 2.25 \nDescription: Satisfactory")
+    elif round_up >= 76 and round_up <= 78:
+        print(f"Grade/Mark: 2.25 \nDescription: Satisfactory")
     return input_grade
     
 
