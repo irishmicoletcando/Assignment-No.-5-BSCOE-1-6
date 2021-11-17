@@ -4,6 +4,14 @@
 # Display the lowest number.
 
 def ask_num(num1, num2, num3):
+    try:
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+        num3 = float(input("Enter third number: "))
+
+    except ValueError:
+        print("Enter a number.")
+        
     if num1 < num2 and num1 < num3:
         print(f"The lowest number is {num1}.")
         return num1
@@ -18,10 +26,5 @@ def ask_num(num1, num2, num3):
             else:
                 print("The three numbers are equal.")
                 return
-
-
-number1 = float(input("Enter first number: "))
-number2 = float(input("Enter second number: "))
-number3 = float(input("Enter third number: "))
 
 ask_num(num1 = number1, num2 = number2, num3 = number3)
